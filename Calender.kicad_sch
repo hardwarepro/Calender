@@ -1369,22 +1369,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 2.54 1.2701 0)
+			(property "Reference" "J"
+				(at 0 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Screen"
-				(at 2.54 -1.2699 0)
+			(property "Value" "Conn_01x09"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1546,14 +1544,14 @@
 				(pin passive line
 					(at -5.08 10.16 0)
 					(length 3.81)
-					(name "VCC"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3.3V"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,7 +1569,7 @@
 							)
 						)
 					)
-					(number "GND"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1582,14 +1580,14 @@
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 3.81)
-					(name "IO14"
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "DIN"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1600,14 +1598,14 @@
 				(pin passive line
 					(at -5.08 2.54 0)
 					(length 3.81)
-					(name "IO13"
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "CLK"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1618,14 +1616,14 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "IO15"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "CS"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,14 +1634,14 @@
 				(pin passive line
 					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "1O27"
+					(name "Pin_6"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "DC"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1654,14 +1652,14 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 3.81)
-					(name "IO26"
+					(name "Pin_7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "RST"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1672,14 +1670,14 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "IO25"
+					(name "Pin_8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "BUSY"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1690,14 +1688,14 @@
 				(pin passive line
 					(at -5.08 -10.16 0)
 					(length 3.81)
-					(name "IO33"
+					(name "Pin_9"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "PWR"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5653,7 +5651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 26.3652 0)
 			(effects
 				(font
@@ -6586,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 18.0848 0)
 			(effects
 				(font
@@ -7793,7 +7791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 64.4652 134.62 0)
 			(effects
 				(font
@@ -8128,7 +8126,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.12 23.1648 0)
 			(effects
 				(font
@@ -8189,7 +8187,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screen"
+		(property "Value" "Conn_01x09"
 			(at 133.35 48.2599 0)
 			(effects
 				(font
@@ -8198,7 +8196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 			(at 130.81 46.99 0)
 			(effects
 				(font
@@ -8225,31 +8223,31 @@
 				(hide yes)
 			)
 		)
-		(pin "DIN"
+		(pin "7"
 			(uuid "1e0505a2-9b8b-4b9d-b6c1-95c175db09c9")
 		)
-		(pin "BUSY"
+		(pin "5"
 			(uuid "ed843d33-05a8-4655-b218-7e96d3e6a0d0")
 		)
-		(pin "3.3V"
+		(pin "2"
 			(uuid "019edc4b-f9f4-4128-84ff-21a4b3b1ea2c")
 		)
-		(pin "RST"
+		(pin "8"
 			(uuid "1afba8e0-6cb0-4a43-871a-085f75e6befa")
 		)
-		(pin "CLK"
+		(pin "6"
 			(uuid "454c73e6-dc75-49a1-b35c-1f6c6494e407")
 		)
-		(pin "DC"
+		(pin "9"
 			(uuid "45fe2efb-f053-4b33-8da0-502102e66ada")
 		)
-		(pin "CS"
+		(pin "1"
 			(uuid "487c5477-cdb4-4be7-beaa-fe681045ddb2")
 		)
-		(pin "PWR"
+		(pin "4"
 			(uuid "27c7ec10-d774-4c51-9177-38189a63f196")
 		)
-		(pin "GND"
+		(pin "3"
 			(uuid "7823e0d4-3ada-4c7e-a822-eb7fc854d9e6")
 		)
 		(instances
@@ -8829,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 266.7 135.89 0)
 			(effects
 				(font
@@ -9098,7 +9096,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -9168,7 +9166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_SPT:PhoenixContact_SPT_1.5_2-H-3.5_1x02_P3.5mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 130.81 102.87 0)
 			(effects
 				(font
@@ -9631,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.72 31.4452 0)
 			(effects
 				(font
@@ -10086,7 +10084,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 17.4752 0)
 			(effects
 				(font
@@ -10154,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -10221,7 +10219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 22.5552 0)
 			(effects
 				(font
