@@ -38,7 +38,8 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 | :--- | :--- | :--- | :--- |
 | AMS1117-3.3V | From Digikey | 1 | $6.96 after tax + shipping |
 | E-Ink Display | [From Waveshare](https://www.waveshare.com/3.7inch-e-paper-hat-plus-g.htm?sku=31061) | 1 | $26.99 after tax + $5 shipping |
+| DAPLINK for programming | From Amazon | 1 | $9.09 after tax + shipping |
 
 ---
 
-### **TOTAL: $105.65**
+### **TOTAL: $114.74 USD**
