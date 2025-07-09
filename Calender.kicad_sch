@@ -4182,6 +4182,12 @@
 		(uuid "c2d3dc73-ee57-4c76-8d74-d347055484fb")
 	)
 	(junction
+		(at 40.64 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c85e4c66-eb3e-46df-a44a-d19aace555c9")
+	)
+	(junction
 		(at 168.91 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4218,6 +4224,16 @@
 			(type default)
 		)
 		(uuid "0641c601-f59a-45d1-a1bc-13a8b7881502")
+	)
+	(wire
+		(pts
+			(xy 36.83 121.92) (xy 40.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5d2677-f673-4264-9a7b-f88365b81c50")
 	)
 	(wire
 		(pts
@@ -4258,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "3e90d6e3-b8bf-4d2b-a8b3-7528caa20663")
+	)
+	(wire
+		(pts
+			(xy 36.83 114.3) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c329c9-ed2b-4a54-adba-0f57ef48b52a")
 	)
 	(wire
 		(pts
@@ -4569,6 +4595,16 @@
 		)
 		(uuid "f660c31c-1d56-48d0-a9d5-24a63668b668")
 	)
+	(wire
+		(pts
+			(xy 40.64 121.92) (xy 43.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d24955-d707-4baa-995f-8f471e57a7a8")
+	)
 	(global_label "OUT_3.3V"
 		(shape input)
 		(at 232.41 115.57 90)
@@ -4609,6 +4645,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 43.18 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10fa1a22-88f5-4efd-a7f9-98ec3fa2bffa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.3286 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5075,6 +5133,28 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 36.83 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81d73e01-183f-4b85-a4b8-06218303057b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.6158 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUSY"
 		(shape input)
 		(at 125.73 54.61 180)
@@ -5273,6 +5353,28 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 36.83 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4c68a37-ab8b-4069-8db9-b86a3d799c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.0997 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OUT_3.3V"
 		(shape input)
 		(at 245.11 118.11 90)
@@ -5418,6 +5520,28 @@
 		(uuid "d38a955b-a5c6-4fac-a510-fdcb9b892d17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.0153 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT_3.3V"
+		(shape input)
+		(at 40.64 129.54 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9fceaaa-bd75-409c-af45-7c70f0ccf918")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 141.2338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,6 +6547,73 @@
 			(project "Calender"
 				(path "/7be0bee7-9169-4e67-9c75-05b4027453a4"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c292de1-118e-4312-b2da-6c8b20c92277")
+		(property "Reference" "R14"
+			(at 43.18 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.64 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 42.418 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a187dee-cf36-4845-9677-78694b839917")
+		)
+		(pin "1"
+			(uuid "ba52cb21-f33f-43eb-a0d1-44260354bef8")
+		)
+		(instances
+			(project "Calender"
+				(path "/7be0bee7-9169-4e67-9c75-05b4027453a4"
+					(reference "R14")
 					(unit 1)
 				)
 			)
