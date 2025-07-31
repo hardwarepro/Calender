@@ -4,7 +4,7 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 
 ## Photos
 
-<img width="1519" height="668" alt="image" src="https://github.com/user-attachments/assets/bf515be7-b2e0-4264-bd5c-bcdffdddfc71" />
+<img width="1627" height="691" alt="image" src="https://github.com/user-attachments/assets/a57dc9c9-b5ed-4ab8-85fc-5716f1d8faef" />
 <img width="1284" height="750" alt="image" src="https://github.com/user-attachments/assets/93abccec-5fc2-41a4-aeb6-f07f2dbe9868" />
 <img width="1625" height="756" alt="image" src="https://github.com/user-attachments/assets/881fb862-0ff9-48fa-b1a8-f5329fce1c12" />
 
@@ -29,8 +29,8 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 | ATSAMD21G18A-A | ATSAMD21G18A-AU | C78624 | 2 | 6.249 |
 | MCP73871 | MCP73871T-2CCI/ML | C511310 | 2 | 7.482 |
 | ESP-WROOM-02 | ESP-WROOM-02D-N4 | C529584 | 2 | 3.75 |
-| AMS1117-3.3V | AMS1117-3.3V |  | 2 |  |
-| PCB | | | $71.70 after tax + shipping ||
+| AMS1117-3.3V | AMS1117-3.3V |  | 2 | 1.25 |
+| PCB | | | $72.50 after tax + shipping ||
 
 ---
 
