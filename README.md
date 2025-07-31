@@ -8,6 +8,8 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 <img width="1284" height="750" alt="image" src="https://github.com/user-attachments/assets/93abccec-5fc2-41a4-aeb6-f07f2dbe9868" />
 <img width="1625" height="756" alt="image" src="https://github.com/user-attachments/assets/881fb862-0ff9-48fa-b1a8-f5329fce1c12" />
 
+<img width="1009" height="822" alt="image" src="https://github.com/user-attachments/assets/caa7a38d-8fd4-469c-95f2-a9de556f985c" />
+
 
 ## BOM
 
