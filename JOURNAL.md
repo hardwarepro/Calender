@@ -20,3 +20,6 @@ After totally not forgetting that I needed to submit it, I got back to it, and l
 ## Day 4 - July 30th - 1.5 hours
 
 Today, I pretty much fixed up everything that was requested for this board to be approved. I started off with fixing the PCB. There were some caps that we so far from there main IC, so I moved it closer. I also moved the voltage converter and one cap to the front side of the board so JLCPCB could assemble all the parts, and not make it hand-solder 2 of them. Next I made my case. I totally forgot about designing the case. Since I'm not a crazy CAD user, I started off with getting a rough idea of how I wanted it to be in tinkercad. Then, I was able to import my design in Fusion 360, and get exact measurements from there to make the case the right size for my board. It's a very simple case with some cutouts for the screen, EC11, the 2 buttons and the USB-C, but it works. I also learnt how to add a fillet to the sides to make everything rounded and cool!
+
+<img width="1386" height="599" alt="image" src="https://github.com/user-attachments/assets/12560a92-66a1-477c-9ff3-b4a5639b5b70" />
+<img width="1009" height="822" alt="image" src="https://github.com/user-attachments/assets/caa7a38d-8fd4-469c-95f2-a9de556f985c" />
