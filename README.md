@@ -31,7 +31,7 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 | MCP73871 | MCP73871T-2CCI/ML | C511310 | 2 | 7.482 |
 | ESP-WROOM-02 | ESP-WROOM-02D-N4 | C529584 | 2 | 3.75 |
 | AMS1117-3.3V | AMS1117-3.3V |  | 2 | 1.25 |
-| PCB | | | $72.50 after tax + shipping ||
+| PCB | | | $76.80 after tax + shipping ||
 
 ---
 
@@ -39,9 +39,9 @@ This is a custom-built calender PCB that allows me to upload my school schedule 
 
 | Item | Details/Source | Qty | Price |
 | :--- | :--- | :--- | :--- |
-| 0.91 OLED | 0.91 OLED | 1 | $0, I own one |
-| E-Ink Display | [From Waveshare](https://www.waveshare.com/3.7inch-e-paper-hat-plus-g.htm?sku=31061) | 1 | $26.99 after tax + $5 shipping |
+| 0.91 OLED | 0.91 OLED | 1 | $1.15 since mine just broke :( |
+| E-Ink Display | [From Waveshare](https://www.waveshare.com/3.7inch-e-paper-hat-plus-g.htm?sku=31061) | 2 | $48.98 after tax + shipping |
 
 ---
 
-### **TOTAL: $105 USD without customs**
+### **TOTAL: $126.93 USD without customs**
