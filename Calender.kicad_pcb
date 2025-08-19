@@ -2812,15 +2812,15 @@
 			(uuid "a310bbbe-2f22-4726-919f-f39e84f71123")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.step"
+		(model "${KIPRJMOD}/282837-2--3DModel-STEP-269445.STEP"
 			(offset
-				(xyz 2.539999962 0 0)
+				(xyz 2.54 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3883,15 +3883,15 @@
 			(uuid "d1ce1d9c-a163-4160-90d9-546aeb838915")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step"
+		(model "${KIPRJMOD}/EC11_Rotary_Encoder_Switched.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -2.5 -2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -9345,15 +9345,15 @@
 			(uuid "e11dd6cc-6454-4ef1-8867-447d44969a9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A.step"
+		(model "${KIPRJMOD}/KH-TYPE-C-16P--3DModel-STEP-269445.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
